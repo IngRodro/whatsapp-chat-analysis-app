@@ -67,7 +67,7 @@ def ObtenerPartes(linea):
 ##################################################################################
 
 # Leer el archivo txt descargado del chat de WhatsApp
-RutaChat = 'Data/WhatsApp Chat - Honey, My Wife❤️✨.txt'
+RutaChat = 'Resources/WhatsApp Chat - Honey, My Wife❤️✨.txt'
 
 # Lista para almacenar los datos (Fecha, Hora, Miembro, Mensaje) de cada línea del txt
 DatosLista = []
