@@ -36,7 +36,7 @@ def IniciaConFechaYHora(s):
 
 # Patrón para encontrar a los miembros del grupo dentro del txt
 def EncontrarMiembro(s):
-    patrones = ['😌:','Honey, My Wife❤️✨:']
+    patrones = ['Ing Rodro:','Honey, My Wife❤️✨:']
 
     patron = '^' + '|'.join(patrones)
     resultado = re.match(patron, s)  # Verificar si cada línea del txt hace match con el patrón de miembro
